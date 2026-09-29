@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "The Brain, Body, and Behaviour Dataset (1.0.0) - Experiment 4",
-  "description": "Experiment 4 of the Brain, Body, and Behavior Dataset (BBBD) contains multimodal recordings from 43 participants who watched six short educational videos in an attentive session and again in a distracted session (silently counting backwards in steps of 7). Recordings include EEG, EOG, ECG, respiration, gaze, pupil size, blinks, saccades, and head position. Memory questions were asked only for the videos of the second attentive condition (after the attentive session), and the dataset includes ASRS ADHD symptom questionnaire responses.",
-  "methods_description": "Participants watched six instructional videos across two attention conditions. Three videos were shown in one condition and three in the other, and questions were asked only about the videos in the second attentive condition. In session 2 participants watched the videos again while distracted by a mental counting task. EEG, EOG, ECG, respiration, eye tracking, and head position were recorded. Domain-knowledge questions were asked before each video and memory questions after it. EEG was converted to BDF and physiological and eye-tracking data to tsv.gz using MATLAB.",
+  "description": "Experiment 4 of the Brain, Body, and Behavior Dataset (BBBD) contains multimodal recordings from 43 participants who watched short educational videos while EEG, EOG, ECG, respiration, pupil size, gaze, and head position were recorded. Session 1 was an attentive condition with factual multiple-choice questions after each video. Session 2 was a distracted condition in which participants silently counted backwards in steps of 7. Questionnaires, including the ASRS adult ADHD symptom checklist and stimulus-related knowledge questions, are provided.",
+  "methods_description": "Participants watched five to six instructional videos in random order under attentive and distracted conditions. EEG was recorded as BDF files, alongside EOG, ECG, respiration, eye tracking (gaze, pupil, blinks, saccades), and head position. Memory and domain-knowledge questions and the ASRS questionnaire were administered.",
   "license": "CC BY 4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -39,16 +39,16 @@
       "term": "multimodal physiology"
     },
     {
-      "term": "eye tracking"
-    },
-    {
-      "term": "ADHD"
+      "term": "EOG"
     },
     {
       "term": "respiration"
     },
     {
       "term": "pupillometry"
+    },
+    {
+      "term": "ADHD"
     }
   ],
   "related_identifiers": [
