@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "The Brain, Body, and Behaviour Dataset (1.0.0) - Experiment 4",
-  "description": "The Brain, Body, and Behaviour Dataset (Experiment 4) is a multimodal neurophysiological dataset comprising simultaneous recordings of EEG, eye-tracking, cardiac, respiratory, and electrooculographic signals from 43 subjects across two sessions. Participants watched educational videos under attentive and distracted conditions while their cognitive engagement and physiological responses were monitored. This derivative dataset supports investigation of attention, learning, and the neural correlates of educational video comprehension.",
-  "methods_description": "Data collection involved simultaneous recording of EEG, EOG, ECG, respiration, pupillary responses, gaze coordinates, and head position during two sessions: an attentive condition with post-video comprehension testing (Session 1) and a distracted condition with concurrent backward counting task (Session 2). EEG data were recorded in BDF format; physiological and eye-tracking data were converted to compressed TSV format using MATLAB-based processing pipelines.",
+  "description": "Experiment 4 of the Brain, Body, and Behavior Dataset (BBBD) contains multimodal recordings from 43 participants who watched six short educational videos in an attentive session and again in a distracted session (silently counting backwards in steps of 7). Recordings include EEG, EOG, ECG, respiration, gaze, pupil size, blinks, saccades, and head position. Memory questions were asked only for the videos of the second attentive condition (after the attentive session), and the dataset includes ASRS ADHD symptom questionnaire responses.",
+  "methods_description": "Participants watched six instructional videos across two attention conditions. Three videos were shown in one condition and three in the other, and questions were asked only about the videos in the second attentive condition. In session 2 participants watched the videos again while distracted by a mental counting task. EEG, EOG, ECG, respiration, eye tracking, and head position were recorded. Domain-knowledge questions were asked before each video and memory questions after it. EEG was converted to BDF and physiological and eye-tracking data to tsv.gz using MATLAB.",
   "license": "CC BY 4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -18,41 +18,44 @@
       "term": "EEG"
     },
     {
-      "term": "eye tracking"
+      "term": "Electrocardiography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004562"
     },
     {
-      "term": "attention"
+      "term": "Eye Movements",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D005133"
     },
     {
-      "term": "learning"
+      "term": "Attention",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D001288"
     },
     {
       "term": "educational videos"
     },
     {
-      "term": "multimodal neuroimaging"
+      "term": "multimodal physiology"
     },
     {
-      "term": "physiological signals"
+      "term": "eye tracking"
     },
     {
-      "term": "cardiac"
+      "term": "ADHD"
     },
     {
       "term": "respiration"
     },
     {
-      "term": "ECG"
-    },
-    {
-      "term": "cognitive engagement"
+      "term": "pupillometry"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "10.1101/2025.04.29.651259",
       "identifier_type": "DOI",
-      "relation_type": "References"
+      "relation_type": "IsDescribedBy"
     },
     {
       "identifier": "https://github.com/nemarDatasets/nm000147",
@@ -60,24 +63,24 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=nm000147",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.1038/s41597-026-07215-1",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000147",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
     {
       "funder_name": "National Science Foundation",
-      "award_number": "DRL-1660548"
+      "award_number": "DRL-2201835"
     },
     {
       "funder_name": "National Science Foundation",
-      "award_number": "DRL-2201835"
+      "award_number": "DRL-1660548"
     }
   ],
   "resource_type_general": "Dataset",
@@ -87,7 +90,7 @@
     "eeg"
   ],
   "sizes": [
-    "5.5 GB (5686 files)"
+    "5.12 GB (5686 files)"
   ],
   "formats": [
     ".bdf",
