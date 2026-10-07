@@ -18,7 +18,7 @@
 | Stim-02         | The Immune System Explained – Bacteria                      | [Watch Here](https://www.youtube.com/embed/zQGOcOUBi6s) |
 | Stim-03         | Are We All Related                                          | [Watch Here](https://www.youtube.com/embed/mnYSMhR3jCI) |
 | Stim-04         | How Modern Light Blbs Work                                  | [Watch Here](https://www.youtube.com/embed/oCEKMEeZXug) |
-| Stim-05         | What If We Killed All the Mosquitoes                        | [Watch Here](https://www.youtube.com/embed/9w-5wJYVmcw) |
+| Stim-05         | What If We Killed All the Mosquitoes                        | [Watch Here](https://www.youtube.com/embed/e0NT9i4Qnak) |
 | Stim-06         | Three Factors That May Alter the Action of an Enzyme        | [Watch Here](https://www.youtube.com/embed/lkRZKqDdwzU) |
 -------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -142,3 +142,24 @@ videos. Please cite the original data descriptor when using this dataset:
 The full BBBD comprises ~178 participants across five experiments; this NEMAR record
 contains the **43 participants** of Experiment 4. Please credit the original creators and
 cite the data paper above.
+
+Correction (2026-10-08): the mosquito video was listed above as YouTube `9w-5wJYVmcw` ("What If We Killed All Mosquitoes?",
+channel What If). The presented video is `e0NT9i4Qnak` ("What Would Happen if Mosquitoes Went Extinct?", SciShow): this id is
+given by the data paper (Madsen et al. 2026, Sci Data, https://doi.org/10.1038/s41597-026-07215-1, Table 2) and embedded by
+the BBBD website (`bbbd.pythonanywhere.com/static/experiments_script.js`), and every specific fact asked in the mosquito
+memory quiz (`mosquitoes_quiz.tsv`: Wolbachia, "over 3,000 species", self-limiting gene, DDT, biomass) is in e0NT9i4Qnak and
+not in 9w-5wJYVmcw. The link in the table now points to e0NT9i4Qnak; the title in the table and in the sidecars is the
+authors' label for it. (Table 2 lists 4:47, which is the length of 9w-5wJYVmcw; e0NT9i4Qnak is 5:00.)
+
+## Stimuli
+
+Added 2026-10-08 (metadata only; no video is included). `stimuli/stimuli.tsv` has one row per stimulus task (`stimNN`):
+YouTube id, the presented duration (`end - start` in `*_events.tsv`, the same in every recording), the length of the
+current upload and, where verified, where the presentation starts inside the upload. The videos are third-party YouTube
+uploads (standard YouTube licence); watch them at the listed links.
+
+Known timing facts:
+- The presented versions are edited: stim01 184.8 s of 208.7 s; stim02 388.8 s of 468.8 s; stim03 362.8 s of 385.1 s; stim05 261.0 s of 300.3 s. stim06 was shown for 268.53 s in every recording, longer than the 191.6-s upload: the presented version is not this upload.
+- Start of the presentation inside the upload (median pupil size of all recordings vs. upload luminance; the pupil
+  constricts 0.4-0.5 s after brightening; the mosquito start comes from the video content, end of the channel intro):
+  stim01: 0 s; stim02: 0 s; stim03: 2.85 s; stim04: 0 s; stim05: 10.8 s; stim06: not verifiable.
