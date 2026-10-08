@@ -3,3 +3,4 @@ Metadata update 2026-10-08
   - Added stimuli/stimuli.tsv and stimuli.json: one row per stimulus task (YouTube id, presented duration, upload length, verified start offset); no media added.
   - README: section 'Stimuli'.
   - dataset_description.json: GeneratedBy entry for this enrichment.
+  - stimuli.tsv/README: stim06 = ~90 s of other material + upload 0-178.6 s (gaze vs picture motion).

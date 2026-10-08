@@ -159,7 +159,11 @@ current upload and, where verified, where the presentation starts inside the upl
 uploads (standard YouTube licence); watch them at the listed links.
 
 Known timing facts:
-- The presented versions are edited: stim01 184.8 s of 208.7 s; stim02 388.8 s of 468.8 s; stim03 362.8 s of 385.1 s; stim05 261.0 s of 300.3 s. stim06 was shown for 268.53 s in every recording, longer than the 191.6-s upload: the presented version is not this upload.
+- The presented versions are edited: stim01 184.8 s of 208.7 s; stim02 388.8 s of 468.8 s; stim03 362.8 s of 385.1 s; stim05 261.0 s of 300.3 s. stim06 was shown for 268.53 s in every recording, longer than the 191.6-s upload: the presented version is about 90 s of other material followed by the first 178.6 s of this upload (see below).
 - Start of the presentation inside the upload (median pupil size of all recordings vs. upload luminance; the pupil
   constricts 0.4-0.5 s after brightening; the mosquito start comes from the video content, end of the channel intro):
-  stim01: 0 s; stim02: 0 s; stim03: 2.85 s; stim04: 0 s; stim05: 10.8 s; stim06: not verifiable.
+  stim01: 0 s; stim02: 0 s; stim03: 2.85 s; stim04: 0 s; stim05: 10.8 s.
+- stim06: the median gaze x/y of all recordings follows the motion centroid of the upload (0.4 s later; lag checked on the
+  pupil-verified videos) from about 90 s into the presentation to its end, at upload time = presented time - 89.9 s (from
+  100 s on, p < 0.05 against random offsets in 11 of 16 10-s windows, as for videos with known starts; the same in
+  experiment 3). The first ~90 s show other material that is not public.
