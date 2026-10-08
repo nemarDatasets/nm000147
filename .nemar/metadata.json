@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "The Brain, Body, and Behaviour Dataset (1.0.0) - Experiment 4",
-  "description": "Experiment 4 of the Brain, Body, and Behavior Dataset (BBBD) contains multimodal recordings from 43 participants who watched educational videos under attentive and distracted conditions. Participants were told they would be tested on the content and answered factual multiple-choice questions after each video. Signals include EEG, EOG, ECG, respiration, gaze, pupil size and head position, along with questionnaires including the ASRS adult ADHD symptom checklist.",
-  "methods_description": "Participants watched six instructional videos across two sessions. In session 1 they watched attentively and answered memory questions after each video. In session 2 they watched the same videos while distracted by silently counting backwards from a random prime number in steps of 7. EEG, EOG, ECG, respiration, eye-tracking (gaze, pupil) and head position were recorded. EEG was converted to BDF and the physiological and eye-tracking recordings to tsv.gz.",
+  "description": "Experiment 4 of the Brain, Body, and Behavior Dataset (BBBD) contains multimodal recordings from 43 participants who watched short educational videos under attentive and distracted conditions. Participants knew they would be tested, and after each video they answered factual multiple-choice questions. Recordings include EEG, EOG, ECG, respiration, gaze, pupil size, blinks, saccades, and head position, along with questionnaires such as the ASRS adult ADHD checklist.",
+  "methods_description": "Participants watched five educational videos in two sessions. In session 1 they were attentive and answered 11-12 memory questions after each video. In session 2 they watched the videos again while silently counting backwards from a random prime number in steps of 7. EEG, EOG, ECG, respiration, eye tracking (gaze, pupil), and head position were recorded. Questionnaires (stimuli questionnaire, ASRS) are provided in the phenotype directory.",
   "license": "CC BY 4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -18,17 +18,14 @@
       "term": "EEG"
     },
     {
-      "term": "Electrooculography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004585"
-    },
-    {
       "term": "Electrocardiography",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D004562"
     },
     {
-      "term": "Eye tracking"
+      "term": "Eye Movements",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D005133"
     },
     {
       "term": "Attention",
@@ -37,6 +34,18 @@
     },
     {
       "term": "educational videos"
+    },
+    {
+      "term": "multimodal physiology"
+    },
+    {
+      "term": "EOG"
+    },
+    {
+      "term": "respiration"
+    },
+    {
+      "term": "ADHD"
     }
   ],
   "related_identifiers": [
@@ -89,5 +98,5 @@
     ".tsv",
     ".yml"
   ],
-  "source_hash": "fbb265ce4b0cfdb397301d6744582d3badea343498bc214155987cf6fa28ef27"
+  "source_hash": "e3196af66c9b623ec377816e2c979eb17f71aae9ca595f6babe5aed2fad8e92e"
 }
