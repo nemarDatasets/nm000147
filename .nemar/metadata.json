@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "validated",
+  "pipeline_stage": "enriched",
   "title": "The Brain, Body, and Behaviour Dataset (1.0.0) - Experiment 4",
-  "description": "Experiment 4 of the Brain, Body, and Behavior Dataset (BBBD) contains multimodal recordings from 43 participants who watched short educational videos under attentive and distracted conditions. Participants knew they would be tested, and after each video they answered factual multiple-choice questions. Recordings include EEG, EOG, ECG, respiration, gaze, pupil size, blinks, saccades, and head position, along with questionnaires such as the ASRS adult ADHD checklist.",
-  "methods_description": "Participants watched five educational videos in two sessions. In session 1 they were attentive and answered 11-12 memory questions after each video. In session 2 they watched the videos again while silently counting backwards from a random prime number in steps of 7. EEG, EOG, ECG, respiration, eye tracking (gaze, pupil), and head position were recorded. Questionnaires (stimuli questionnaire, ASRS) are provided in the phenotype directory.",
+  "description": "Experiment 4 of the Brain, Body, and Behavior Dataset (BBBD) contains multimodal recordings from 43 participants who watched six short educational videos under attentive and distracted conditions. Signals include EEG, EOG, ECG, respiration, gaze, pupil size, blinks, saccades, and head position. In the attentive session, participants answered factual multiple-choice questions after the videos of the second attentive set (Stim 1-3). Phenotypic data include an ADHD symptom checklist (ASRS).",
+  "methods_description": "Participants watched three instructional videos in one attentive condition and three different videos in a second attentive condition, and were tested on the second set. In a second session they re-watched the videos while silently counting backwards from a random prime number in steps of 7 (distracted condition). EEG, EOG, ECG, respiration, pupillary responses, gaze, and head position were recorded. Domain-knowledge questions were asked before each video and memory questions after it.",
   "license": "CC BY 4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -18,14 +18,7 @@
       "term": "EEG"
     },
     {
-      "term": "Electrocardiography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004562"
-    },
-    {
-      "term": "Eye Movements",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D005133"
+      "term": "Eye Tracking"
     },
     {
       "term": "Attention",
@@ -33,19 +26,27 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D001288"
     },
     {
+      "term": "Electrocardiography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004562"
+    },
+    {
       "term": "educational videos"
     },
     {
-      "term": "multimodal physiology"
+      "term": "multimodal recordings"
     },
     {
       "term": "EOG"
     },
     {
-      "term": "respiration"
+      "term": "ADHD"
     },
     {
-      "term": "ADHD"
+      "term": "pupil size"
+    },
+    {
+      "term": "respiration"
     }
   ],
   "related_identifiers": [
@@ -98,5 +99,5 @@
     ".tsv",
     ".yml"
   ],
-  "source_hash": "e3196af66c9b623ec377816e2c979eb17f71aae9ca595f6babe5aed2fad8e92e"
+  "source_hash": "b17bf0d0611a8bcf295bd4ad3baee24271c2c2cc6368884f03ce166dd9ca2c0b"
 }
