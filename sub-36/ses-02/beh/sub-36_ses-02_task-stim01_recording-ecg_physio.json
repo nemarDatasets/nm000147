@@ -1,1 +1,17 @@
-/annex/objects/SHA256E-s520--839fa627588887524735cc6e3eeaee1c050b916565e32f7f2485ebe6a4f6523a.json
+{
+  "TaskName": "Stim 01, Attentive Condition - Tested on this content",
+  "TaskDescription": "Watch educational video [ Why are Stars Star-Shaped ] in Attentive Condition and be tested on the content of this stimulus",
+  "SamplingFrequency": 128,
+  "StartTime": 0,
+  "Columns": [
+    "rawECG"
+  ],
+  "Manufacturer": "BioSemi",
+  "ManufacturersModelName": "Active Two",
+  "SoftwareVersions": "ActiView v8.0",
+  "DeviceSerialNumber": "ADC6-04-90",
+  "rawECG": {
+    "Description": "raw ecg value",
+    "Units": "mV"
+  }
+}

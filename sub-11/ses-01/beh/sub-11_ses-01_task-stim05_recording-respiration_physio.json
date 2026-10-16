@@ -1,1 +1,17 @@
-/annex/objects/SHA256E-s624--daf486123ef7bb6162445222cbd7ed66461a438ca0c7ef2ebcb65b7d1d8f24ae.json
+{
+  "TaskName": "Stim 05, Attentive Condition - Not tested on this content",
+  "TaskDescription": "Watch educational video [ What If We Killed All the Mosquitoes ] in Attentive Condition without being tested on the content of this stimulus",
+  "SamplingFrequency": 128,
+  "StartTime": 0,
+  "Columns": [
+    "rawRespiration"
+  ],
+  "Manufacturer": "BioSemi",
+  "ManufacturersModelName": "Active Two",
+  "SoftwareVersions": "ActiView v8.0",
+  "DeviceSerialNumber": "ADC6-04-90",
+  "rawRespiration": {
+    "Description": "raw respiration signal - tension on a belt worn around the chest of the subject",
+    "Units": "mV"
+  }
+}

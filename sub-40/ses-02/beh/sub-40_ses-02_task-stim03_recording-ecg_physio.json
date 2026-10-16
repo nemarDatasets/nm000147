@@ -1,1 +1,17 @@
-/annex/objects/SHA256E-s513--02e39a2e406aca0acf49b5c036c2009760b925d65311501090f5d98f69f2c241.json
+{
+  "TaskName": "Stim 03, Attentive Condition - Tested on this content",
+  "TaskDescription": "Watch educational video [ Are We All Related ] in Attentive Condition and be tested on the content of this stimulus",
+  "SamplingFrequency": 128,
+  "StartTime": 0,
+  "Columns": [
+    "rawECG"
+  ],
+  "Manufacturer": "BioSemi",
+  "ManufacturersModelName": "Active Two",
+  "SoftwareVersions": "ActiView v8.0",
+  "DeviceSerialNumber": "ADC6-04-90",
+  "rawECG": {
+    "Description": "raw ecg value",
+    "Units": "mV"
+  }
+}
