@@ -1,1 +1,17 @@
-/annex/objects/SHA256E-s542--94139030559aaf40fee9683cfa6e0d63a367afc8a293507b7616652c9068e37e.json
+{
+  "TaskName": "Stim 05, Attentive Condition - Not tested on this content",
+  "TaskDescription": "Watch educational video [ What If We Killed All the Mosquitoes ] in Attentive Condition without being tested on the content of this stimulus",
+  "SamplingFrequency": 128,
+  "StartTime": 0,
+  "Columns": [
+    "rawECG"
+  ],
+  "Manufacturer": "BioSemi",
+  "ManufacturersModelName": "Active Two",
+  "SoftwareVersions": "ActiView v8.0",
+  "DeviceSerialNumber": "ADC6-04-90",
+  "rawECG": {
+    "Description": "raw ecg value",
+    "Units": "mV"
+  }
+}

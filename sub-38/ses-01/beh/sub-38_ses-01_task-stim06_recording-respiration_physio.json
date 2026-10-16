@@ -1,1 +1,17 @@
-/annex/objects/SHA256E-s667--149aacceeecdeaff587b53eac7a4ea46831ca537389ce01ef0310365633564d2.json
+{
+  "TaskName": "Stim 06, Attentive Condition - Not tested on this content",
+  "TaskDescription": "Watch educational video [ Three Factors That May Alter the Action of an Enzyme Chemistry Biology Concepts ] in Attentive Condition without being tested on the content of this stimulus",
+  "SamplingFrequency": 128,
+  "StartTime": 0,
+  "Columns": [
+    "rawRespiration"
+  ],
+  "Manufacturer": "BioSemi",
+  "ManufacturersModelName": "Active Two",
+  "SoftwareVersions": "ActiView v8.0",
+  "DeviceSerialNumber": "ADC6-04-90",
+  "rawRespiration": {
+    "Description": "raw respiration signal - tension on a belt worn around the chest of the subject",
+    "Units": "mV"
+  }
+}

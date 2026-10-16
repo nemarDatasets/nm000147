@@ -1,1 +1,17 @@
-/annex/objects/SHA256E-s602--0319aafc355b5366eaef96ed54658ee86b8d05d76e9e178c4409a9642b5477af.json
+{
+  "TaskName": "Stim 01, Attentive Condition - Tested on this content",
+  "TaskDescription": "Watch educational video [ Why are Stars Star-Shaped ] in Attentive Condition and be tested on the content of this stimulus",
+  "SamplingFrequency": 128,
+  "StartTime": 0,
+  "Columns": [
+    "rawRespiration"
+  ],
+  "Manufacturer": "BioSemi",
+  "ManufacturersModelName": "Active Two",
+  "SoftwareVersions": "ActiView v8.0",
+  "DeviceSerialNumber": "ADC6-04-90",
+  "rawRespiration": {
+    "Description": "raw respiration signal - tension on a belt worn around the chest of the subject",
+    "Units": "mV"
+  }
+}

@@ -1,1 +1,6 @@
-/annex/objects/SHA256E-s188--76123eb68851906fefbe1adc81ff591b0b7ac190e09d3973b0263878844d1c30.json
+{
+  "IntendedFor": "BBBD\\experiment4\\sub-04\\ses-02\\eeg",
+  "EEGCoordinateSystem": "EEGLAB",
+  "EEGCoordinateUnits": "mm",
+  "EEGCoordinateSystemDescription": "Geographic coordinates"
+}

@@ -1,3 +1,20 @@
+1.0.1 2026-10-16
+  - Text files are now plain git files instead of git-annex pointers: 1982 files
+    (.json 1377, .tsv 604, .gitignore 1). Their content is unchanged: each file's SHA-256 equals its
+    former annex key. Catalogues such as EEGDash read sidecars from the git tree
+    without downloading annexed content, so they could not read sampling rate,
+    channel count or duration for this dataset.
+  - Added .gitattributes so text files stay in git from now on.
+  - The 252 eye-tracking sidecars sub-*/ses-*/beh/*_physio.json stay annexed for now:
+    with them readable, BIDS validator 2.4.1 (NEMAR CI) crashes on its
+    EyetrackingStimulusPresentation check, because these physio files have no
+    events file in beh/.
+  - .bidsignore: restored its original content "phenotype/" (the file had been
+    committed as a git-annex pointer and ".nemar/" was later appended to the pointer).
+  - No data file changed: every annexed recording keeps its annex key.
+  - This release also carries the unreleased metadata updates of 2026-10-08/09
+    listed below (stimuli table, README).
+
 Metadata update 2026-10-08
   - README: mosquito video link corrected from 9w-5wJYVmcw to e0NT9i4Qnak (Sci Data 2026 Table 2, BBBD website, memory-quiz content); see README.
   - Added stimuli/stimuli.tsv and stimuli.json: one row per stimulus task (YouTube id, presented duration, upload length, verified start offset); no media added.
