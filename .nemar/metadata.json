@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "The Brain, Body, and Behaviour Dataset (1.0.0) - Experiment 4",
-  "description": "Experiment 4 of the Brain, Body, and Behavior Dataset (BBBD) contains multimodal recordings from 43 participants who watched six short educational videos under attentive and distracted conditions. Signals include EEG, EOG, ECG, respiration, gaze, pupil size, blinks, saccades, and head position. In the attentive session, participants answered factual multiple-choice questions after the videos of the second attentive set (Stim 1-3). Phenotypic data include an ADHD symptom checklist (ASRS).",
-  "methods_description": "Participants watched three instructional videos in one attentive condition and three different videos in a second attentive condition, and were tested on the second set. In a second session they re-watched the videos while silently counting backwards from a random prime number in steps of 7 (distracted condition). EEG, EOG, ECG, respiration, pupillary responses, gaze, and head position were recorded. Domain-knowledge questions were asked before each video and memory questions after it.",
+  "description": "Experiment 4 of the Brain, Body, and Behavior Dataset (BBBD) contains multimodal recordings from 43 participants who watched educational videos under two attention conditions across two sessions. Participants watched six instructional videos in total (Stim 1-6): three (Stim 4-6) in one attentive condition and three different videos (Stim 1-3) in a second attention condition, after which they answered factual multiple-choice questions on the second set of videos. In session 1, participants viewed attentively and answered questions after each video. In session 2, they viewed the videos again in the same order while distracted by silently counting backwards from a random prime number in steps of 7, with no questions asked. Recordings include EEG, EOG, ECG, respiration, gaze, pupil size, and head position, along with questionnaire data including the ASRS.",
+  "methods_description": "Participants watched instructional videos in two attention conditions: attentive viewing, followed by memory questions, and distracted viewing, in which they silently counted backwards from a random prime number in steps of 7. EEG, EOG, ECG, respiration, pupillary responses, gaze, and head position were recorded. Questionnaires included domain-knowledge and memory questions and the ASRS adult ADHD symptom checklist.",
   "license": "CC BY 4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -18,7 +18,7 @@
       "term": "EEG"
     },
     {
-      "term": "Eye Tracking"
+      "term": "eye tracking"
     },
     {
       "term": "Attention",
@@ -26,27 +26,15 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D001288"
     },
     {
+      "term": "educational videos"
+    },
+    {
       "term": "Electrocardiography",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D004562"
     },
     {
-      "term": "educational videos"
-    },
-    {
       "term": "multimodal recordings"
-    },
-    {
-      "term": "EOG"
-    },
-    {
-      "term": "ADHD"
-    },
-    {
-      "term": "pupil size"
-    },
-    {
-      "term": "respiration"
     }
   ],
   "related_identifiers": [
@@ -99,5 +87,5 @@
     ".tsv",
     ".yml"
   ],
-  "source_hash": "b17bf0d0611a8bcf295bd4ad3baee24271c2c2cc6368884f03ce166dd9ca2c0b"
+  "source_hash": "6d429641e8ac5c402e0864c51e53c4816e37ba81aebfe36a96927c0d56e1c6b6"
 }
